@@ -1,0 +1,38 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'player.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Player _$PlayerFromJson(Map<String, dynamic> json) => Player(
+  id: json['id'] as String,
+  name: json['name'] as String,
+  age: (json['age'] as num).toInt(),
+  position: $enumDecode(_$PlayerPositionEnumMap, json['position']),
+  technical: (json['technical'] as num?)?.toInt(),
+  physical: (json['physical'] as num?)?.toInt(),
+  mental: (json['mental'] as num?)?.toInt(),
+  form: (json['form'] as num?)?.toInt(),
+  fitness: (json['fitness'] as num?)?.toInt(),
+);
+
+Map<String, dynamic> _$PlayerToJson(Player instance) => <String, dynamic>{
+  'id': instance.id,
+  'name': instance.name,
+  'age': instance.age,
+  'position': _$PlayerPositionEnumMap[instance.position]!,
+  'technical': instance.technical,
+  'physical': instance.physical,
+  'mental': instance.mental,
+  'form': instance.form,
+  'fitness': instance.fitness,
+};
+
+const _$PlayerPositionEnumMap = {
+  PlayerPosition.goalkeeper: 'goalkeeper',
+  PlayerPosition.defender: 'defender',
+  PlayerPosition.midfielder: 'midfielder',
+  PlayerPosition.forward: 'forward',
+};
