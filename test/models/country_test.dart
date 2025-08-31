@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:soccer_utilities/src/models/country.dart';
+import 'package:tactics_fc_utilities/utilities.dart';
 
 void main() {
   group('Country Model Tests', () {

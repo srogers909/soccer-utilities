@@ -416,7 +416,7 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "soccer_utilities",
+      "name": "tactics_fc_utilities",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.9"

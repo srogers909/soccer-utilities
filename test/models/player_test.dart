@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:soccer_utilities/src/models/player.dart';
+import 'package:tactics_fc_utilities/utilities.dart';
 
 void main() {
   group('Player Model Tests', () {

@@ -1,10 +1,10 @@
 {
   "roots": [
-    "soccer_utilities"
+    "tactics_fc_utilities"
   ],
   "packages": [
     {
-      "name": "soccer_utilities",
+      "name": "tactics_fc_utilities",
       "version": "1.0.0+1",
       "dependencies": [
         "equatable",
